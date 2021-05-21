@@ -1,0 +1,227 @@
+* {
+    margin: 0 auto;
+}
+
+nav {
+    color: white;
+    background-color: black;
+}
+
+nav ul {
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#title {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+    position: relative;
+    right: 250px;
+    font-family: Helvetica;
+}
+
+#myprof {
+    position: relative;
+    right: 500px;
+    font-family: Helvetica;    
+}
+
+#findconn {
+    position: relative;
+    right: 750px;
+    font-family: Helvetica;
+}
+
+.soButton {
+
+}
+
+#signOut {    
+    font-size: 16px;
+    color: white;
+    font-family: Helvetica;
+    background-color: cyan;
+}
+
+.background {
+    margin: 0;
+    height: 1001px;
+    width: 1901px;
+    background-image: url(background.png);
+    background-color: rgba(0, 0, 0, 0.555);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    position: absolute;
+    width: 750px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: black solid 6px;
+    bottom: 280px;
+    left: 100px;
+}
+
+.topBox1 {
+    background-color: black;
+    height: 150px;
+    width: 750px;
+}
+
+.profilePicture {
+    border-radius: 60%;
+    position: relative;
+    bottom: 45px;
+    left: 22px;
+}
+
+.bottomBox1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20px;
+    bottom: 35px;
+}
+
+#locDong {
+    border-radius: 60%;
+}
+
+#setWhee {
+    border-radius: 60%;
+}
+
+.education {
+    position: absolute;
+    width: 750px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: black solid 6px;
+    bottom: 2px;
+    left: 100px;
+}
+
+.topBox2 {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 750px;
+}
+
+#eduTitle {
+    font-family: Helvetica;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+.bottomBox2 {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+#date {
+    color: rgb(197, 197, 197);
+}
+
+.connReq {
+    position: absolute;
+    width: 450px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: black solid 6px;
+    bottom: 470px;
+    left: 1200px;
+}
+
+.topBox3 {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 450px;
+}
+
+#conReqTitle {
+    font-family: Helvetica;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#lilPing {
+    border-radius: 60%;
+}
+
+.bottomBox3 {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+.yourConn {
+    position: absolute;
+    width: 450px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: black solid 6px;
+    bottom: 20px;
+    left: 1200px;
+}
+
+.topBox4 {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 450px;
+}
+
+#lilPing2 {
+    border-radius: 60%;
+}
+
+#pingYourConn {
+    font-family: Helvetica;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bottomBox4 {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+.bottomBottom {
+    height: 50px;
+    top: 163px;
+    outline: black solid 6px;
+    position: relative;
+    font-family: Helvetica;
+}
+
+#bottomBottomText {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.littleProfiles {
+    border-radius: 60%;
+    height: 35px;
+    width: 35px;
+}
